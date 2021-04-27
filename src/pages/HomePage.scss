@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+
+  &__container {
+    display: flex;
+  }
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  border: 10px solid #f3722c;
+  margin: 2rem;
+  border-radius: 50%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 7rem;
+  height: 2rem;
+  background-color: lightseagreen;
+  border-radius: 2rem;
+  color: white;
+}
